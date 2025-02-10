@@ -2,7 +2,7 @@ import datetime as dt
 import requests
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
-CITY = "LAGOS"
+CITY = str(input("Input the City: "))
 
 # Load API Key safely
 
